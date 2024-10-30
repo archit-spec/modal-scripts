@@ -22,8 +22,8 @@ image = (
         "ipywidgets"
     )
     .env({
-        "WANDB_API_KEY": "2302a2f0747d822e1d2d551024634f3c674c87a9",
-        "HF_TOKEN": "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",
+        "WANDB_API_KEY": "",
+        "HF_TOKEN": "",
         "PYTORCH_CUDA_ALLOC_CONF": "max_split_size_mb:512"
     })
     .run_function(download_model)
